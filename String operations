@@ -1,5 +1,5 @@
 using System;
-public class Rashi
+public class Yash
 {
 	static string n="Luthadore";
 	static string y="Yash";
