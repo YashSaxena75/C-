@@ -1,0 +1,44 @@
+using System;
+public class Rashi
+{
+	static string n="Luthadore";
+	static string y="Yash";
+		public static void Main()
+	{
+		Console.WriteLine(n.Length);
+	    Console.WriteLine(String.Compare(n,y));
+		Console.WriteLine(n.CompareTo(y));
+	    string p="Alien";
+		Console.WriteLine("using concat()");
+		Console.WriteLine(String.Concat(n,p));
+		string f;
+			f=p;
+			Console.WriteLine(f);
+		if(n.EndsWith("i"))
+		{
+			Console.WriteLine("True String n ends with i..");
+		}
+		else
+		  Console.WriteLine("False");
+			
+		if(y.StartsWith("Y"))
+		{
+		  Console.WriteLine("Yes String y Starts with Y");	
+		}
+			else
+			{
+			 Console.WriteLine("NO....")	;
+			}
+			Console.WriteLine(n.Equals(y));
+			
+			Console.WriteLine(n.IndexOf('R'));
+			Console.WriteLine(n.Insert(0,"Y"));
+			Console.WriteLine(n.LastIndexOf('a'));
+			Console.WriteLine(n.Replace('R','Y'));
+			Console.WriteLine(n.Split('R'));
+			Console.WriteLine(n.Substring(0,n.Length));
+			Console.WriteLine(n.ToUpper());
+			Console.WriteLine(n.Trim());
+			Console.WriteLine(n.Remove(0));
+	}
+}
